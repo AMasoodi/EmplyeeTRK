@@ -1,0 +1,26 @@
+{
+  "name": "emplyeetrk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AMasoodi/EmplyeeTRK.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AMasoodi/EmplyeeTRK/issues"
+  },
+  "homepage": "https://github.com/AMasoodi/EmplyeeTRK#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
