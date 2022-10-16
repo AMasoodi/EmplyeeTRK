@@ -11,8 +11,8 @@ const genHtml= (teamMembers)=>{
           <p class="card-text">Office Number: ${member.officeNumber} </p>
         </div>
       </div>`)
-      return html.join("")
        });
+       return html.join("")
     }
     const genEngineer= (members)=>{
         const html= []
@@ -26,8 +26,8 @@ const genHtml= (teamMembers)=>{
            <p class="card-text">Github: ${member.github} </p>
          </div>
        </div>`)
-       return html.join("")
-        });
+    });
+    return html.join("")
      }
      const genIntern= (members)=>{
         const html= []
@@ -41,8 +41,8 @@ const genHtml= (teamMembers)=>{
            <p class="card-text">School: ${member.school} </p>
          </div>
        </div>`)
-       return html.join("")
-        });
+    });
+    return html.join("")
      }
     return `
     <!DOCTYPE html>

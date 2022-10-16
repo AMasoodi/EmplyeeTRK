@@ -85,7 +85,7 @@ const prompts=async ()=>{
 }
 const createHtml=async ()=>{
     const html=genHtml(teamMembers)
-    await writeFile("dist/index.html".html)
+    await writeFile("dist/index.html",html)
 
 }
 
