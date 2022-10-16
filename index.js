@@ -1,7 +1,9 @@
+const genHtml= require("./src/genhtml")
 const Engineer= require("./lib/Engineer")
 const Intern= require("./lib/Intern")
 const Manager= require("./lib/Manager")
 const fs=require("fs")
+const {writeFile}=fs.promises
 const inquirer=require("inquirer")
 const { async } = require("rxjs")
 const teamMembers=[]
@@ -82,9 +84,9 @@ const prompts=async ()=>{
     }
 }
 const createHtml=async ()=>{
-    console.log(
-        teamMembers
-    )
+    const html=genHtml(teamMembers)
+    await writeFile("dist/index.html".html)
+
 }
 
 prompts()
